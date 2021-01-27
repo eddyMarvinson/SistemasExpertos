@@ -165,8 +165,8 @@ calculo_mental:-
     pregunta('Tienes facilidad para hacer calculos mentales'),!.
 busca_soluciones:-
     pregunta('Buscas hasta encontrar la solucion a un problema matematico cuando no te sale'),!.
-analiza_hechos:
-    -pregunta('Te gusta analizar las cosas, tratando de buscar una razon para los hechos que ocurren'),!.
+analiza_hechos:-
+    pregunta('Te gusta analizar las cosas, tratando de buscar una razon para los hechos que ocurren'),!.
 concluir:-
     pregunta('Sacas conclusiones basandote en hechos ciertos'),!.
 resolver_problema:-
